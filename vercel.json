@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "api/combinedFunction.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    { "src": "/api/createVelg", "dest": "/api/combinedFunction" },
+    { "src": "/api/readVelg", "dest": "/api/combinedFunction" },
+    { "src": "/api/deleteVelg", "dest": "/api/combinedFunction" },
+    { "src": "/api/updateVelg", "dest": "/api/combinedFunction" },
+    { "src": "/api/signUp", "dest": "/api/combinedFunction" },
+    { "src": "/api/login", "dest": "/api/combinedFunction" },
+    { "src": "/api/createCustomer", "dest": "/api/combinedFunction" },
+    { "src": "/api/readCustomer", "dest": "/api/combinedFunction" },
+    { "src": "/api/deleteCustomer", "dest": "/api/combinedFunction" },
+    { "src": "/api/updateCustomer", "dest": "/api/combinedFunction" }
+  ]
+}
