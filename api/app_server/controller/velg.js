@@ -85,4 +85,4 @@ const updateVelg = (req, res) => {
 };
 
 
-module.exports ={createVelg, readVelg, deleteVelg, updateVelg}
+module.exports ={createVelg, readVelg, deleteVelg, updateVelg};
